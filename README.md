@@ -9,7 +9,7 @@ This is the README file for a responsive website named Home 2 Artificial Intelli
 
 # Introduction
 
-Artificial Intelligence (AI) has recently taken the world by storm. Unfortunately, due to the constantly changing nature of the software, it is difficult for users to keep up with the latest updates in technology. So many helpful AI tools are created each year, yet without promotion and advertisement, very few of them are put to proper use. The problem is that they do not have the correct platform.
+Artificial Intelligence (AI) has recently taken the world by storm. Unfortunately, due to the constantly changing nature of the software, it is difficult for users to keep up with the latest updates in technology. So many helpful AI tools are created each year, yet without promotion and advertisement, very few of them are put to proper use. The issue is that they do not have the correct platform. H2AI aims to solve this problem.
 
 # Features
 
