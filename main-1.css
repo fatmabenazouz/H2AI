@@ -18,7 +18,7 @@ body {
     flex: 1;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
     padding: 20px;
 }
 
@@ -28,7 +28,6 @@ body {
   top: 0;
   left: 20;
   width: 100%;
-  justify-content: space-between;
   align-items: center;
   background-color: #000; /* Black background for the navigation bar */
   color: #fff;
@@ -44,6 +43,7 @@ body {
 
 .nav-links {
   display: flex;
+  padding-left: 70%;
 }
 
 .nav-links a {
@@ -72,18 +72,61 @@ section {
   margin-top: 50px;
 }
 
-#about-section, .v24_54, .v24_55, .v24_56 {
+#about-section, .v24_54, .v24_55 {
   background-color: #FF5B22; /* Bright orange background for the About Us section */
-  font-size: x-large;
-  margin-bottom: 50px;
+  font-size: xx-large;
+  margin-bottom: 20px;
 }
 
 .v24_55 {
   margin-top: 100px;
 }
 
-#tools-section, .v22_1657, .v24_300, .v24_301, .v24_302, .v24_303, .v24_304, .v24_305, .v24_306, .v24_307 {
-  background-color: #000; /* Black background for the third section */
+.v24_57 {
+  font-size: x-large;
+  padding-bottom: 40px;
+}
+
+/* Styles for the tools section */
+#tools-section {
+  padding: 20px;
+  background-color: #000; /* Black background for the tools section */
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.column {
+  flex: 1;
+  text-align: center;
+}
+
+/* Styles for the images */
+.column img {
+  max-width: 100%; /* Ensure the images don't exceed their container */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Styles for the star review */
+.star-review {
+  color: #ffd700; /* Gold color for filled stars */
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.star-review i {
+  margin: 0 5px;
+}
+
+#moreButton {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px; /* Adjust padding as needed */
 }
 
 #contact-section {
