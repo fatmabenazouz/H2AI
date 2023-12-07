@@ -7,7 +7,7 @@
 body {
   font-family: 'Inter', sans-serif;
   font-size: 14px;
-  background-color: #000; /* Set as default background color for the body */
+  background-color: #000; /* default background color for the body */
   color: #fff;
   min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
   display: flex;
@@ -19,7 +19,6 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 0;
-    padding: 20px;
 }
 
 .navbar {
@@ -64,12 +63,12 @@ section {
 
 #home-section, .v24_33, .v24_45, .v24_34 {
   background-color: #000; /* Black background for the first section */
-  font-size: x-large;
-  margin-top: 70px;
+  font-size: xx-large;
+  margin-top: 100px;
 }
 
 .v24_35 {
-  margin-top: 50px;
+  font-size: large;
 }
 
 #about-section, .v24_54, .v24_55 {
@@ -139,7 +138,7 @@ section {
 
 .column {
   flex: 1;
-  padding: 20px;
+  padding: 10px;
 }
 
 /* Styles for the first column */
@@ -147,7 +146,7 @@ section {
   width: 30%; /* Adjust the width as needed */
   display: inline-block;
   vertical-align: top; /* Align columns to the top */
-  padding-left: 30px; /* Add some spacing between columns */
+  padding-left: 25px; /* Add some spacing between columns */
 }
 
 .v24_302 {
