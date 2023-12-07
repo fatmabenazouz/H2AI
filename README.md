@@ -13,17 +13,51 @@ Artificial Intelligence (AI) has recently taken the world by storm. Unfortunatel
 
 # Features
 
-The website includes the following features:
+Navigation Bar:
 
-A Home Page that hosts our logo and navigation bar, the featured AI tools, and the tool directory.
+The website has a fixed navigation bar at the top.
+It includes a brand/logo ("H2AI") and navigation links for "Home," "About Us," "Tools," and "Contact."
 
-A Tool Details Section with in-depth AI tool information, addititonal resources, and similar tool recommendations.
+Home Section:
 
-A Search Section that allows the user to input keywords in the search bar, in order to find an AI tool with a specific purpose.
+Section with an id of "home-section."
+Contains a welcome message, a heading, and a description of the purpose of the website.
 
-An About Us Section that hosts team member profiles and contact information, along with info about Cyclops' mission. A contact form will also be available for users who have any questions or requests.
+About Us Section:
 
-Additional Features allowing for users to create an account on the website, which they can then use to leave reviews of the AI tools they utilized.
+Section with an id of "about-section."
+Provides information about the purpose of the website ("About Us").
+Contains a heading and a description.
+
+Tools Section:
+
+Section with an id of "tools-section."
+Contains a heading ("Tools") and space for tools or services.
+The tools section is designed to display images with associated star reviews.
+
+Contact Section:
+
+Section with an id of "contact-section."
+Divided into columns containing information about the website ("H2AI"), social media links, navigation links, and a form for "New Trends."
+
+Star Review System:
+
+Incorporated into the tools section.
+Each tool or service is accompanied by a star review system with clickable stars.
+
+More Section:
+
+Placeholder for additional content that can be revealed by clicking the "More" button.
+Currently, this section is empty and will be dynamically updated.
+
+Footer:
+
+The website has a footer in the "contact-section" containing social media icons, navigation links, and a form for subscribing to new trends.
+
+Styling and Responsiveness:
+
+The website is styled using CSS, with attention to background colors, font sizes, and layouts.
+Responsive design with media queries for different screen sizes.
 
 # Credits
 
